@@ -1,0 +1,91 @@
+.mi-imagen_live_jac {
+    border: 2px solid #FAFAD2;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  
+  
+.mi-imagen_live_white__jac {
+  border: 1px solid #FAFAD2;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+  
+.gradient-text {
+  background: linear-gradient(to right, #e5c404, #b8860b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: color 0.5s ease-in-out;
+}
+  
+.gradient-text:hover {
+  color: #b8860b;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.borde_m_v {
+  border: 2px solid #202007;
+  border-radius: 30px;
+}
+
+.tamanio-text3 {font-size: 14px;}
+                
+            .cuadro {
+  width: 100%;
+  height: 0;
+  padding-bottom: 35%;
+}
+
+@media screen and (max-width: 400px) {
+  .cuadro {
+    width: 100%;
+    padding-bottom: 50%;
+  }
+}
+
+
+.salto-linea {
+  padding-bottom: 60px;
+}
+
+
+
+
+.fondo_seccion1 {
+  position: relative;
+  z-index: 1;
+  /* Establecer la imagen de fondo */
+  background-image: url('../img/seccion_fond2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.fondo_seccion1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Establecer el color de fondo y la opacidad de la capa adicional */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.titulo-colorido-1 {
+  background: -webkit-linear-gradient(left, rgb(255, 0, 68), rgb(243, 218, 28), rgb(17, 194, 248), rgb(216, 216, 12));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.subtitulo-colorido-1 {
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, rgb(255, 152, 26), rgb(244, 230, 45), rgb(255, 255, 133));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
